@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(228, 228, 228);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+}
+
+.title {
+    color: #3d86c2; 
+    font-family: "Impact"; 
+    font-size: 50px; 
+    line-height: 80px; 
+    font-weight: normal; 
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.user {
+    display: inline; 
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Arial Black'; 
+}
+
+.message {
+    display: inline; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.dateTime {
+    margin-left: 10px;
+    display: block;
+    color: gray;
+}
+
+.highlight {
+    color: #3d86c2;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px 10px;
+    font-size: 15px;
+    background-color: #3d86c2;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #3d86c2;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.timeline {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Arial Black';
+    color: #000000;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.tweet {
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px 20px 10px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
